@@ -1,0 +1,218 @@
+{
+    "folders": [
+        {
+            "path": "..\\..\\..\\VW\\git\\vwg.services.onehub.rollout.prod"
+        }
+    ],
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.sortJSON": false
+        },
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 2000,
+        "editor.formatOnType": true,
+        "explorer.openEditors.visible": 20,
+        "extensions.ignoreRecommendations": false,
+        "files.exclude": {
+            "**/*create-renderdefault-settings*": true,
+            "**/*vscode*": true,
+            "**/*wamplangues*": true,
+            "**/*wampthemes*": true,
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.gitattributes*": true,
+            "**/.hg": true,
+            "**/.svn": true,
+            "**/CVS": true,
+            "**/Makefile*": true,
+            "**/config.mk": true,
+            "**/genereate-ngsdl-renderdefaults-settings*": true,
+            "**/krsync.sh": true,
+            "**/kube.keys": true,
+            "**/performance": true,
+            "**/stage": true,
+            "**/ts-a*.json": true,
+            "**/ts-b*": true,
+            "**/ts-c*": true,
+            "**/ts-d*": true,
+            "**/ts-e*": true,
+            "**/ts-f*": true,
+            "**/ts-g*": true,
+            "**/ts-m*": true,
+            "**/ts-n*": true,
+            "**/ts-o*": true,
+            "**/ts-p*": true,
+            "**/ts-s*": true,
+            "**/ts-t*": true,
+            "**/ts-tqa*": true,
+            "**/ts-u*": true,
+            "**/ts-v*": true,
+            "**/ts-w*": true,
+            "*.bat": true,
+            "*.code-workspace": true,
+            "*.ico": true,
+            ".gitignore": true,
+            ".vscode": true,
+            "AusgabeCA.txt": true,
+            "AusgabePROD.txt": true,
+            "README.md": true,
+            "__cicd_tools": true,
+            "add_vhost.php": true,
+            "c-logo.gif": true,
+            "test_sockets.php": true,
+            "testmysql.php": true,
+            "tss/default/mac-groups*": true,
+            "tss/default/mac-settings*": true,
+            "tss/default/mas-settings*": true,
+            "tss/default/ngsdl-renderdefaults*": true,
+            "tss/default/tenant-mappings*": true,
+            "tss/default/unit-conversions*": true
+        },
+        "git.autofetch": true,
+        "git.confirmSync": false,
+        "git.enableSmartCommit": true,
+        "git.postCommitCommand": "sync",
+        "git.rebaseWhenSync": true,
+        "gitlens.advanced.messages": {},
+        "gitlens.defaultDateFormat": "DD.MMMM.YYYY",
+        "gitlens.defaultDateStyle": "absolute",
+        "gitlens.views.fileHistory.location": "explorer",
+        "gitlens.views.lineHistory.location": "explorer",
+        "gitlens.views.repositories.location": "scm",
+        "json.schemas": [
+            {
+                "fileMatch": [
+                    "/acs_configurator*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ihdcc_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_garage*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/garage_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_garage*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/garage_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_emobility-range*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/emobility-range_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_emobility-range*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/emobility-range_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_mofa*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/mofa_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_mofa*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/mofa_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/phrase_i18n_mofa*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/mofa_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/services*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ihdcc_services_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/sc_vw*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/sc_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_sc_vw*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/sc_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_configurator*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ihdcc_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_marketingcode*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/marketingcode_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/ecs*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ihdcc_ecs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_compare*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/compare_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_ulf*.json"
+                ],
+                "url": "file:///CC:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ulf_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_ulf*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ulf_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_compare*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/compare_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_searchfa*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/dccfa_search_i18n_actual.json"
+            }
+        ],
+        "markdown.preview.fontSize": 14,
+        "search.exclude": {},
+        "terminal.integrated.fontSize": 14,
+        "window.zoomLevel": 0,
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#FF0000",
+            "editor.background": "#ffffff88",
+            "terminal.background": "#FFFFFF"
+        },
+        "workbench.colorTheme": "Visual Studio Light",
+        "workbench.startupEditor": "newUntitledFile",
+        "xmlLang.javaHome": "C:/Program Files (x86)/Java/jre1.8.0_171",
+        "xmlLang.xmlAssociations": [
+            {
+                "fileNamePattern": "*/master*.xml",
+                "systemId": "//C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/ihdcc_master_actual.xsd"
+            }
+        ]
+    }
+}
