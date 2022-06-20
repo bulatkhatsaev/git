@@ -6,7 +6,7 @@
     ],
     "settings": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.sortJSON": false
+            "source.fixAll.sortJSON": true
         },
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
