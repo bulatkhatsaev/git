@@ -113,6 +113,30 @@
             },
             {
                 "fileMatch": [
+                    "/acs_emobility-cost*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/emobility-cost_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_emobility-cost*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/emobility-cost_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_emobility-chargetime*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/emobility-chargetime_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_emobility-chargetime*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/emobility-chargetime_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
                     "/acs_mofa*.json"
                 ],
                 "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/mofa_acs_actual.json"
@@ -194,6 +218,18 @@
                     "/i18n_searchfa*.json"
                 ],
                 "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/dccfa_search_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_visualizer*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/visualizer_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_visualizer*.json"
+                ],
+                "url": "file:///C:/VW/git/vwg.services.onehub.rollout/ca/_global/schemes/visualizer_acs_actual.json"
             }
         ],
         "markdown.preview.fontSize": 14,
