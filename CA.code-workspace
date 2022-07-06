@@ -1,8 +1,280 @@
 {
-	"folders": [
-		{
-			"path": "vwg.services.onehub.rollout"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "..\\..\\vwg.services.onehub.rollout"
+        }
+    ],
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.sortJSON": true
+        },
+        "files.exclude": {
+            "!(**/*ihdcc*)": false,
+            "***vwn-es*": true,
+            "**/dcc": false,
+            "**vw-ar*": true,
+            "**vw-au*": true,
+            "**vw-be*": true,
+            "**vw-br*": true,
+            "**vw-ca*": true,
+            "**vw-cy*": true,
+            "**vw-de*": true,
+            "**vw-ee*": true,
+            "**vw-es*": true,
+            "**vw-gr*": true,
+            "**vw-ic*": true,
+            "**vw-is*": true,
+            "**vw-it*": true,
+            "**vw-jp*": true,
+            "**vw-lt*": true,
+            "**vw-lu*": true,
+            "**vw-lv*": true,
+            "**vw-master*": true,
+            "**vw-mt*": true,
+            "**vw-mx*": true,
+            "**vw-nl*": true,
+            "**vw-pds*": true,
+            "**vw-pl*": true,
+            "**vw-pt*": true,
+            "**vw-rom*": true,
+            "**vw-thunder*": true,
+            "**vw-za*": true,
+            "**vwn-ar*": true,
+            "**vwn-au*": true,
+            "**vwn-be*": true,
+            "**vwn-br*": true,
+            "**vwn-ca*": true,
+            "**vwn-de*": true,
+            "**vwn-it*": true,
+            "**vwn-lu*": true,
+            "**vwn-master*": true,
+            "**vwn-nl*": true,
+            "**vwn-pl*": true,
+            "**vwn-pt*": true,
+            "**vwn-za*": true,
+            "qs": true
+        },
+        "git.autofetch": true,
+        "git.postCommitCommand": "sync",
+        "gitlens.defaultDateFormat": "DD.MMMM.YYYY",
+        "gitlens.defaultDateStyle": "absolute",
+        "gitlens.views.fileHistory.location": "explorer",
+        "gitlens.views.lineHistory.location": "explorer",
+        "gitlens.views.repositories.location": "scm",
+        "json.schemas": [
+            {
+                "fileMatch": [
+                    "/acs_finance*.json"
+                ],
+                "url": "./ca/_global/schemes/finance_service_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_conf*.json"
+                ],
+                "url": "./ca/_global/schemes/ihdcc_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_emobility-range*.json"
+                ],
+                "url": "./ca/_global/schemes/emobility-range_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_emobility-range*.json"
+                ],
+                "url": "./ca/_global/schemes/emobility-range_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/services*.json"
+                ],
+                "url": "./ca/_global/schemes/ihdcc_services_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_compare*.json"
+                ],
+                "url": "./ca/_global/schemes/compare_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_compare*.json"
+                ],
+                "url": "./ca/_global/schemes/compare_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/sc_vw*.json"
+                ],
+                "url": "./ca/_global/schemes/sc_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_garage*.json"
+                ],
+                "url": "./ca/_global/schemes/garage_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_sc_vw*.json"
+                ],
+                "url": "./ca/_global/schemes/sc_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_configurator*.json"
+                ],
+                "url": "./ca/_global/schemes/ihdcc_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_garage*.json"
+                ],
+                "url": "./ca/_global/schemes/garage_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_marketingcode*.json"
+                ],
+                "url": "./ca/_global/schemes/marketingcode_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/*ecs*.json"
+                ],
+                "url": "./ca/_global/schemes/ihdcc_ecs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_mofa_*.json"
+                ],
+                "url": "./ca/_global/schemes/mofa_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_mofa_*.json"
+                ],
+                "url": "./ca/_global/schemes/mofa_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_ulf_*.json"
+                ],
+                "url": "./ca/_global/schemes/ulf_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_ulf_*.json"
+                ],
+                "url": "./ca/_global/schemes/ulf_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/acs_visualizer_*.json"
+                ],
+                "url": "./ca/_global/schemes/visualizer_acs_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_visualizer_*.json"
+                ],
+                "url": "./ca/_global/schemes/visualizer_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_detailfa_*.json"
+                ],
+                "url": "./ca/_global/schemes/dccfa_detail_i18n_actual.json"
+            },
+            {
+                "fileMatch": [
+                    "/i18n_searchfa_*.json"
+                ],
+                "url": "./ca/_global/schemes/dccfa_search_i18n_actual.json"
+            }
+        ],
+        "search.exclude": {
+            "***vwn-es*": true,
+            "**/*.git": true,
+            "**/*.json_release": true,
+            "**/*tqa*.json": true,
+            "**/_global/**": true,
+            "**/bower_components": true,
+            "**/dcc/**": true,
+            "**/global*.json": true,
+            "**/master-cloud.xml": true,
+            "**/node_modules": true,
+            "**/qs/**": true,
+            "**/ts-m*": true,
+            "**/ts-n*": true,
+            "**/ts-o*": true,
+            "**/ts-p*": true,
+            "**/ts-s*": true,
+            "**/ts-t*": true,
+            "**/ts-u*": true,
+            "**/ts-v*": true,
+            "**vw-ar*": true,
+            "**vw-au*": true,
+            "**vw-be*": true,
+            "**vw-br*": true,
+            "**vw-ca*": true,
+            "**vw-cy*": true,
+            "**vw-de*": true,
+            "**vw-ee*": true,
+            "**vw-es*": true,
+            "**vw-gr*": true,
+            "**vw-ic*": true,
+            "**vw-is*": true,
+            "**vw-it*": true,
+            "**vw-jp*": true,
+            "**vw-lt*": true,
+            "**vw-lu*": true,
+            "**vw-lv*": true,
+            "**vw-master*": true,
+            "**vw-mt*": true,
+            "**vw-mx*": true,
+            "**vw-nl*": true,
+            "**vw-pds*": true,
+            "**vw-pl*": true,
+            "**vw-pt*": true,
+            "**vw-rom*": true,
+            "**vw-sema*": true,
+            "**vw-za*": true,
+            "**vwn-ar*": true,
+            "**vwn-au*": true,
+            "**vwn-be*": true,
+            "**vwn-br*": true,
+            "**vwn-ca*": true,
+            "**vwn-de*": true,
+            "**vwn-ic*": true,
+            "**vwn-it*": true,
+            "**vwn-lu*": true,
+            "**vwn-master*": true,
+            "**vwn-mx*": true,
+            "**vwn-nl*": true,
+            "**vwn-pl*": true,
+            "**vwn-pt*": true,
+            "**vwn-za*": true
+        },
+        "vsicons.associations.folders": [
+            {
+                "extensions": [],
+                "format": "svg",
+                "icon": "webpack"
+            }
+        ],
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#4EE0FA"
+        },
+        "workbench.colorTheme": "Visual Studio Light",
+        "xml.fileAssociations": [
+            {
+                "pattern": "*/master*.xml",
+                "systemId": "./ca/_global/schemes/ihdcc_master_actual.xsd"
+            }
+        ],
+        "xml.symbols.maxItemsComputed": 10000
+    }
 }
