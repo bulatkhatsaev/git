@@ -1,12 +1,12 @@
 {
     "folders": [
         {
-            "path": "..\\..\\vwg.services.onehub.rollout"
+            "path": "vwg.services.onehub.rollout"
         }
     ],
     "settings": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.sortJSON": true
+            "source.fixAll.sortJSON": false
         },
         "files.exclude": {
             "!(**/*ihdcc*)": false,
